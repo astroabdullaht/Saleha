@@ -108,15 +108,12 @@
       setTimeout(() => heart.remove(), 6000);
     }
 
-
     function showLove() {
-      setInterval(createHeart, 300);
-
       document.getElementById('step1').classList.add('hidden');
       document.getElementById('step2').classList.remove('hidden');
       document.getElementById('bgMusic').play();
+      setInterval(createHeart, 300);
     }
-      }
   </script>
 
 </body>
